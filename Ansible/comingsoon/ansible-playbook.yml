@@ -2,8 +2,17 @@
 - name: "bulid container with ansible"
   hosts: localhost
   tasks: 
-  - name: bulid docker img from docker file 
+  - name: stop running ansible container
+    command: docker stop ansible-container
+
+  - name: remove running ansible container
+    command: docker rm ansible-container
+
+  - name: remove ansible img
+    command: docker rmi ansible-img
+
+  - name: bulid docker img from docker file
     command: docker build -t ansible-img .
 
-  - name: run container  from ansible-img 
+  - name: run container  from ansible-img
     command: docker run -d --name ansible-container -p  5055:80 ansible-img
