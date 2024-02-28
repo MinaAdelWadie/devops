@@ -1,0 +1,9 @@
+---
+- name: "bulid container with ansible"
+  hosts: localhost
+  tasks: 
+  - name: bulid docker img from docker file 
+    command: docker build -t ansible-img .
+
+  - name: run container  from ansible-img 
+    command: docker run -d --name ansible-container -p  5055:80 ansible-img
