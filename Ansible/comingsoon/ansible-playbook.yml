@@ -1,20 +1,51 @@
 ---
-- name: "bulid container with ansible"
+- name: "run container with ansible and docker compse"
   hosts: localhost
-  tasks: 
-  - name: stop running ansible container
-    command: docker stop ansible-container
+  tasks:
+  - name: "stop container"
+    command: docker-compose stop comingsoon-minadevops-1
     ignore_errors: yes
-
-  - name: remove running ansible container
-    command: docker rm ansible-container
+  - name: "remove container"
+    command: docker-compose rm comingsoon-minadevops-1
     ignore_errors: yes
+  - name: "run container"
+    command: docker-compose up -d 
 
-  - name: remove ansible img
-    command: docker rmi ansible-img
 
-  - name: bulid docker img from docker file
-    command: docker build -t ansible-img .
 
-  - name: run container  from ansible-img
-    command: docker run -d --name ansible-container -p  5055:80 ansible-img
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#- name: "bulid container with ansible"
+#  hosts: localhost
+#  tasks: 
+#  - name: stop running ansible container
+#    command: docker stop ansible-container
+#    ignore_errors: yes
+
+#  - name: remove running ansible container
+#    command: docker rm ansible-container
+#    ignore_errors: yes
+
+#  - name: remove ansible img
+#    command: docker rmi ansible-img
+
+#  - name: bulid docker img from docker file
+#    command: docker build -t ansible-img .
+
+#  - name: run container  from ansible-img
+#    command: docker run -d --name ansible-container -p  5055:80 ansible-img

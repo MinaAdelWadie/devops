@@ -1,0 +1,11 @@
+version: '3'
+
+
+services:
+    minadevops:
+        image: nginx:1.15.0-alpine
+        volumes: 
+            - .:/usr/share/nginx/html/
+        ports: 
+            - 5033:80
+
