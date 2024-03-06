@@ -1,0 +1,6 @@
+---
+- name: converge 
+  hosts: all
+  tasks:
+    - name: create file
+      command: touch mina
