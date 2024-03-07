@@ -1,4 +1,4 @@
-# Docker Compose شرح
+# Docker Compose
 
 Docker compose is a tool for defining and running multiple-containers. With `docker-compose` you use a `YAML` file format to configure your application's services. Then, with a single command, you create and start all the services from your configuration.
 
