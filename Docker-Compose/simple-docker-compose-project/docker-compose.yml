@@ -15,7 +15,3 @@ services:
             - 5033:80
         depends_on:
             - product-service
-
-
-
-

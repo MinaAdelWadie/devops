@@ -12,7 +12,7 @@ platforms:
   - name: ubuntu-22.04
     image: ubuntu:jammy-20240212
     networks:
-      - name: molecule-poc-patch-management
+      - name: male-poc-patch-management
     groups:
       - nodes # so we use groups in Ansible
 scenario:
