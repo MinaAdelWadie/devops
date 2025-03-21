@@ -1,0 +1,159 @@
+Mar 17 12:03:26 Mina sshd[399]: Server listening on 0.0.0.0 port 22.
+Mar 17 12:03:26 Mina sshd[399]: Server listening on :: port 22.
+Mar 17 12:03:29 Mina login[765]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 17 12:03:29 Mina systemd-logind[307]: New session 1 of user mina.
+Mar 17 12:03:29 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 17 12:05:49 Mina systemd-logind[286]: New seat seat0.
+Mar 17 12:05:49 Mina sshd[382]: Server listening on 0.0.0.0 port 22.
+Mar 17 12:05:49 Mina sshd[382]: Server listening on :: port 22.
+Mar 17 12:05:52 Mina login[819]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 17 12:05:52 Mina systemd-logind[286]: New session 3 of user mina.
+Mar 17 12:05:52 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 17 12:17:01 Mina CRON[6799]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 12:17:01 Mina CRON[6799]: pam_unix(cron:session): session closed for user root
+Mar 17 13:17:01 Mina CRON[31643]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 13:17:01 Mina CRON[31643]: pam_unix(cron:session): session closed for user root
+Mar 17 14:06:06 Mina sshd[421]: Server listening on 0.0.0.0 port 22.
+Mar 17 14:06:06 Mina sshd[421]: Server listening on :: port 22.
+Mar 17 14:06:07 Mina systemd-logind[352]: New seat seat0.
+Mar 17 14:06:12 Mina login[860]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 17 14:06:12 Mina systemd-logind[352]: New session 1 of user mina.
+Mar 17 14:06:12 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 17 14:06:13 Mina login[953]: pam_unix(login:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 14:06:13 Mina systemd-logind[352]: New session 3 of user root.
+Mar 17 14:06:13 Mina systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 14:06:13 Mina login[987]: ROOT LOGIN  on '/dev/pts/4'
+Mar 17 14:17:01 Mina CRON[7264]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 14:17:01 Mina CRON[7264]: pam_unix(cron:session): session closed for user root
+Mar 17 15:17:01 Mina CRON[34000]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 15:17:01 Mina CRON[34000]: pam_unix(cron:session): session closed for user root
+Mar 17 15:53:44 Mina sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/9 ruser=mina rhost=  user=mina
+Mar 17 15:53:52 Mina sudo:     mina : TTY=pts/9 ; PWD=/home/mina/devops/ELK ; USER=root ; COMMAND=/usr/bin/su
+Mar 17 15:53:52 Mina sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 17 15:53:52 Mina su: (to root) root on pts/7
+Mar 17 15:53:52 Mina su: pam_unix(su:session): session opened for user root(uid=0) by mina(uid=0)
+Mar 17 15:53:52 Mina systemd-logind[352]: New session c1 of user root.
+Mar 17 15:54:14 Mina su: (to mina) root on pts/7
+Mar 17 15:54:14 Mina su: pam_unix(su:session): session opened for user mina(uid=1000) by mina(uid=0)
+Mar 17 15:57:58 Mina sudo:     mina : TTY=pts/7 ; PWD=/home/mina/devops/ELK ; USER=root ; COMMAND=/usr/bin/su
+Mar 17 15:57:58 Mina sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mina(uid=1000)
+Mar 17 15:57:58 Mina su: (to root) root on pts/8
+Mar 17 15:57:58 Mina su: pam_unix(su:session): session opened for user root(uid=0) by mina(uid=0)
+Mar 17 15:58:09 Mina su: (to mina) root on pts/8
+Mar 17 15:58:09 Mina su: pam_unix(su:session): session opened for user mina(uid=1000) by mina(uid=0)
+Mar 17 16:17:01 Mina CRON[64292]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 16:17:01 Mina CRON[64292]: pam_unix(cron:session): session closed for user root
+Mar 17 16:22:38 Mina sudo:     mina : TTY=pts/8 ; PWD=/home/mina/devops/ELK ; USER=root ; COMMAND=/usr/bin/su
+Mar 17 16:22:38 Mina sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mina(uid=1000)
+Mar 17 16:22:38 Mina su: (to root) root on pts/10
+Mar 17 16:22:38 Mina su: pam_unix(su:session): session opened for user root(uid=0) by mina(uid=0)
+Mar 17 16:25:30 Mina su: (to mina) root on pts/10
+Mar 17 16:25:30 Mina su: pam_unix(su:session): session opened for user mina(uid=1000) by mina(uid=0)
+Mar 17 17:17:01 Mina CRON[1743]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 17 17:17:01 Mina CRON[1743]: pam_unix(cron:session): session closed for user root
+Mar 17 17:56:58 Mina su: pam_unix(su:session): session closed for user mina
+Mar 17 17:56:58 Mina su: pam_unix(su:session): session closed for user root
+Mar 17 17:56:58 Mina sudo: pam_unix(sudo:session): session closed for user root
+Mar 17 17:56:58 Mina su: pam_unix(su:session): session closed for user mina
+Mar 17 17:56:58 Mina su: pam_unix(su:session): session closed for user root
+Mar 17 17:56:58 Mina sudo: pam_unix(sudo:session): session closed for user root
+Mar 17 17:56:58 Mina su: pam_unix(su:session): session closed for user mina
+Mar 17 17:56:58 Mina su: pam_unix(su:session): session closed for user root
+Mar 17 17:56:58 Mina sudo: pam_unix(sudo:session): session closed for user root
+Mar 17 17:56:58 Mina systemd-logind[352]: Session c1 logged out. Waiting for processes to exit.
+Mar 17 17:56:58 Mina systemd-logind[352]: Removed session c1.
+Mar 18 11:59:20 Mina systemd-logind[335]: New seat seat0.
+Mar 18 11:59:20 Mina sshd[426]: Server listening on 0.0.0.0 port 22.
+Mar 18 11:59:20 Mina sshd[426]: Server listening on :: port 22.
+Mar 18 11:59:23 Mina login[802]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 18 11:59:23 Mina systemd-logind[335]: New session 3 of user mina.
+Mar 18 11:59:23 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 18 11:59:24 Mina login[872]: pam_unix(login:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 11:59:24 Mina systemd-logind[335]: New session 5 of user root.
+Mar 18 11:59:24 Mina systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 11:59:24 Mina login[920]: ROOT LOGIN  on '/dev/pts/3'
+Mar 18 12:17:01 Mina CRON[11183]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 12:17:01 Mina CRON[11183]: pam_unix(cron:session): session closed for user root
+Mar 18 13:17:01 Mina CRON[41290]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 13:17:01 Mina CRON[41290]: pam_unix(cron:session): session closed for user root
+Mar 18 14:17:01 Mina CRON[68368]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 14:17:01 Mina CRON[68368]: pam_unix(cron:session): session closed for user root
+Mar 18 14:22:56 Mina systemd-logind[310]: New seat seat0.
+Mar 18 14:22:56 Mina sshd[386]: Server listening on 0.0.0.0 port 22.
+Mar 18 14:22:56 Mina sshd[386]: Server listening on :: port 22.
+Mar 18 14:22:59 Mina login[766]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 18 14:22:59 Mina systemd-logind[310]: New session 1 of user mina.
+Mar 18 14:22:59 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 18 14:23:44 Mina login[1653]: pam_unix(login:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 14:23:44 Mina systemd-logind[310]: New session 3 of user root.
+Mar 18 14:23:44 Mina systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 14:23:44 Mina login[1688]: ROOT LOGIN  on '/dev/pts/9'
+Mar 18 15:17:01 Mina CRON[25976]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 15:17:01 Mina CRON[25976]: pam_unix(cron:session): session closed for user root
+Mar 20 08:45:33 Mina systemd-logind[306]: New seat seat0.
+Mar 20 08:45:33 Mina sshd[396]: Server listening on 0.0.0.0 port 22.
+Mar 20 08:45:33 Mina sshd[396]: Server listening on :: port 22.
+Mar 20 08:45:35 Mina login[783]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 20 08:45:35 Mina systemd-logind[306]: New session 1 of user mina.
+Mar 20 08:45:35 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 20 12:37:57 Mina systemd-logind[297]: New seat seat0.
+Mar 20 12:37:57 Mina sshd[380]: Server listening on 0.0.0.0 port 22.
+Mar 20 12:37:57 Mina sshd[380]: Server listening on :: port 22.
+Mar 20 12:37:59 Mina login[778]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 20 12:37:59 Mina systemd-logind[297]: New session 1 of user mina.
+Mar 20 12:37:59 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 20 12:52:29 Mina sudo:     mina : TTY=pts/5 ; PWD=/home/mina/devops ; USER=root ; COMMAND=/usr/bin/su
+Mar 20 12:52:29 Mina sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 20 12:52:29 Mina su: (to root) root on pts/6
+Mar 20 12:52:29 Mina su: pam_unix(su:session): session opened for user root(uid=0) by mina(uid=0)
+Mar 20 12:52:29 Mina systemd-logind[297]: New session c1 of user root.
+Mar 20 12:52:29 Mina systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 20 12:54:06 Mina su: (to mina) root on pts/6
+Mar 20 12:54:06 Mina su: pam_unix(su:session): session opened for user mina(uid=1000) by mina(uid=0)
+Mar 20 13:17:01 Mina CRON[20248]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 20 13:17:01 Mina CRON[20248]: pam_unix(cron:session): session closed for user root
+Mar 20 14:17:01 Mina CRON[47153]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 20 14:17:01 Mina CRON[47153]: pam_unix(cron:session): session closed for user root
+Mar 20 15:17:01 Mina CRON[74015]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 20 15:17:01 Mina CRON[74015]: pam_unix(cron:session): session closed for user root
+Mar 20 15:47:32 Mina sudo:     mina : TTY=pts/6 ; PWD=/home/mina/devops ; USER=root ; COMMAND=/usr/bin/su
+Mar 20 15:47:32 Mina sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mina(uid=1000)
+Mar 20 15:47:32 Mina su: (to root) root on pts/7
+Mar 20 15:47:32 Mina su: pam_unix(su:session): session opened for user root(uid=0) by mina(uid=0)
+Mar 20 16:17:01 Mina CRON[103811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 20 16:17:01 Mina CRON[103811]: pam_unix(cron:session): session closed for user root
+Mar 20 16:17:15 Mina su: (to mina) root on pts/7
+Mar 20 16:17:15 Mina su: pam_unix(su:session): session opened for user mina(uid=1000) by mina(uid=0)
+Mar 20 16:39:26 Mina su: pam_unix(su:session): session closed for user mina
+Mar 20 16:39:26 Mina su: pam_unix(su:session): session closed for user root
+Mar 20 16:39:26 Mina sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 16:39:26 Mina su: pam_unix(su:session): session closed for user mina
+Mar 20 16:39:26 Mina su: pam_unix(su:session): session closed for user root
+Mar 20 16:39:26 Mina sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 16:39:26 Mina systemd-logind[297]: Session c1 logged out. Waiting for processes to exit.
+Mar 20 16:39:26 Mina systemd-logind[297]: Removed session c1.
+Mar 20 16:39:56 Mina systemd-logind[318]: New seat seat0.
+Mar 20 16:39:56 Mina sshd[398]: Server listening on 0.0.0.0 port 22.
+Mar 20 16:39:56 Mina sshd[398]: Server listening on :: port 22.
+Mar 20 16:40:00 Mina login[854]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 20 16:40:00 Mina systemd-logind[318]: New session 8 of user mina.
+Mar 20 16:40:00 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 20 17:17:01 Mina CRON[21164]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 20 17:17:01 Mina CRON[21164]: pam_unix(cron:session): session closed for user root
+Mar 20 18:17:01 Mina CRON[51048]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 20 18:17:01 Mina CRON[51048]: pam_unix(cron:session): session closed for user root
+Mar 21 12:33:14 Mina systemd-logind[305]: New seat seat0.
+Mar 21 12:33:14 Mina sshd[386]: Server listening on 0.0.0.0 port 22.
+Mar 21 12:33:14 Mina sshd[386]: Server listening on :: port 22.
+Mar 21 12:33:16 Mina login[779]: pam_unix(login:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 21 12:33:16 Mina systemd-logind[305]: New session 1 of user mina.
+Mar 21 12:33:16 Mina systemd: pam_unix(systemd-user:session): session opened for user mina(uid=1000) by (uid=0)
+Mar 21 12:56:12 Mina login[13356]: pam_unix(login:session): session opened for user root(uid=0) by (uid=0)
+Mar 21 12:56:12 Mina systemd-logind[305]: New session 3 of user root.
+Mar 21 12:56:12 Mina systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar 21 12:56:12 Mina login[13391]: ROOT LOGIN  on '/dev/pts/8'
+Mar 21 13:08:52 Mina sudo:     mina : TTY=pts/4 ; PWD=/home/mina/devops/ELK_1 ; USER=root ; COMMAND=/usr/bin/chown root metricbeat.yml filebeat.yml
+Mar 21 13:08:52 Mina sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 21 13:08:52 Mina sudo: pam_unix(sudo:session): session closed for user root
+Mar 21 13:17:01 Mina CRON[25593]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 21 13:42:01 Mina CRON[25593]: pam_unix(cron:session): session closed for user root Mina Amin
